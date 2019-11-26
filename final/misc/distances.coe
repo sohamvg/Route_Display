@@ -1,0 +1,21 @@
+;	Station Distances Map
+; .COE file with hex coefficients
+; Height: 16, Width: 16
+memory_initialization_radix = 16;
+memory_initialization_vector =
+0,26,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,
+26,0,30,ff,44,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,
+ff,30,0,36,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,
+ff,ff,36,0,ff,ff,41,ff,ff,ff,ff,ff,ff,32,ff,ff,
+ff,44,ff,ff,0,ff,ff,2D,ff,ff,ff,ff,ff,ff,ff,ff,
+ff,ff,ff,ff,ff,0,2B,ff,ff,ff,ff,ff,ff,ff,ff,ff,
+ff,ff,ff,41,ff,2B,0,ff,ff,37,ff,ff,ff,ff,ff,ff,
+ff,ff,ff,ff,2D,ff,ff,0,2E,ff,ff,ff,ff,ff,ff,ff,
+ff,ff,ff,ff,ff,ff,ff,2E,0,ff,ff,ff,ff,ff,ff,ff,
+ff,ff,ff,ff,ff,ff,37,ff,ff,0,31,2F,4C,ff,ff,ff,
+ff,ff,ff,ff,ff,ff,ff,ff,ff,31,0,ff,ff,ff,ff,ff,
+ff,ff,ff,ff,ff,ff,ff,ff,ff,2F,ff,0,ff,ff,ff,ff,
+ff,ff,ff,ff,ff,ff,ff,ff,ff,4C,ff,ff,0,ff,ff,ff,
+ff,ff,ff,32,ff,ff,ff,ff,ff,ff,ff,ff,ff,0,3E,30,
+ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,3E,0,ff,
+ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,30,ff,0;
